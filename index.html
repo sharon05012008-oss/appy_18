@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYBER + CAFÉ | Where Coffee Meets Technology</title>
+  <meta name="description" content="CYBER + CAFÉ merges the warm, artisanal atmosphere of specialty coffee with modern high-performance cyber workspaces and digital connectivity.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==============================================
+       2. HEADER / NAVIGATION BAR
+       - Sticky coffee-brown header (#5C3825)
+       - Cream-coloured logo and navigation text
+       - Minimal, elegant, and premium appearance
+  ============================================== -->
+  <header class="header-wrapper" id="siteHeader">
+    <nav class="navbar" aria-label="Main Navigation">
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="CYBER + CAFÉ Home">
+        <span class="cyber-word">CYBER</span>
+        <span class="plus-icon">+</span>
+        <span class="cafe-word">CAFÉ</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Menu -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#venue" class="nav-link">Venue</a></li>
+        <li><a href="#facilities" class="nav-link">Facilities</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- ==============================================
+         3. NEON RGB LINES UNDER THE HEADER
+         - Immediately below coffee-brown header
+         - Three separate, thin, parallel glowing lines:
+           1. Black
+           2. Red
+           3. Blue
+         - Extends full width across website
+         - Subtle neon glow effect
+    ============================================== -->
+    <div class="neon-lines-wrapper" aria-hidden="true">
+      <div class="neon-line line-black" title="Neon Line Black"></div>
+      <div class="neon-line line-red" title="Neon Line Red"></div>
+      <div class="neon-line line-blue" title="Neon Line Blue"></div>
+    </div>
+  </header>
+
+  <!-- ==============================================
+       4. HOME / HERO SECTION
+       - Main heading: "WHERE COFFEE MEETS TECHNOLOGY"
+       - Tagline: "Work. Connect. Play. Relax."
+       - Real coffee & cyber café photography
+       - Editorial & spacious layout
+  ============================================== -->
+  <main>
+    <section id="home" class="hero-section cream-bg">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <div class="hero-pill">
+              <span class="status-dot"></span>
+              <span>Specialty Roasts &bull; Gigabit Workspaces</span>
+            </div>
+
+            <h1 class="hero-title">WHERE COFFEE MEETS TECHNOLOGY</h1>
+            <p class="hero-tagline">Work. Connect. Play. Relax.</p>
+            
+            <p class="hero-desc">
+              Experience the refined harmony of artisanal slow-poured espresso and high-performance computing environments. Designed for thinkers, creators, and enthusiasts who seek both warmth and digital precision.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#visuals" class="btn btn-primary">
+                Explore Atmosphere
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+
+            <div class="hero-features-list">
+              <div class="hero-feat-item">
+                <span class="hero-feat-num">100%</span>
+                <span class="hero-feat-label">Specialty Beans</span>
+              </div>
+              <div class="hero-feat-item">
+                <span class="hero-feat-num">Ultra</span>
+                <span class="hero-feat-label">Low Latency</span>
+              </div>
+              <div class="hero-feat-item">
+                <span class="hero-feat-num">Artisanal</span>
+                <span class="hero-feat-label">Bakery &amp; Roasts</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual Showcase Mosaic -->
+          <div class="hero-visual-showcase" aria-label="Visual preview of coffee and workstations">
+            <!-- Main Hero Image: Cozy Coffee & Laptop Atmosphere -->
+            <div class="showcase-card card-main" data-caption="Warm Coffee &amp; Workstation Ambiance">
+              <img src="assets/images/hero-coffee-cyber.jpg" alt="Cozy coffee cup beside laptop on wooden table with warm lighting" loading="eager">
+            </div>
+
+            <!-- Card 2: Intricate Rosetta Latte Art -->
+            <div class="showcase-card card-latte" data-caption="Signature Rosetta Latte Art">
+              <img src="assets/images/latte-art.jpg" alt="Creamy cappuccino with beautiful latte art in a ceramic cup" loading="eager">
+            </div>
+
+            <!-- Card 3: Cyber Workstation Lounge -->
+            <div class="showcase-card card-cyber" data-caption="High-Performance Cyber Lounge">
+              <img src="assets/images/cyber-workstation.jpg" alt="Modern computer workstations and comfortable chairs in warm ambient setting" loading="eager">
+            </div>
+
+            <!-- Card 4: Coffee Beans on Rustic Wood -->
+            <div class="showcase-card card-beans" data-caption="Select Roasted Coffee Beans">
+              <img src="assets/images/coffee-beans.jpg" alt="Freshly roasted specialty coffee beans on wooden café table" loading="eager">
+            </div>
+
+            <!-- Floating Badge -->
+            <div class="hero-floating-badge">
+              <strong>CYBER + CAFÉ</strong>
+              <span>Curated Space &bull; Est. 2024</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         ATMOSPHERE PILLARS
+         - Warm wooden atmosphere, modern technology
+    ============================================== -->
+    <section class="pillars-section cream-bg">
+      <div class="container">
+        <div class="pillars-grid">
+          
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zM6 1v3M10 1v3M14 1v3"/></svg>
+            </div>
+            <h3 class="pillar-title">Artisan Coffee Craft</h3>
+            <p class="pillar-desc">
+              Ethically sourced single-origin coffee beans, freshly roasted and extracted through precision espresso profiles and slow pour-over techniques.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="pillar-title">Modern Workstations</h3>
+            <p class="pillar-desc">
+              Dedicated ergonomic seating, dual monitor displays, ultra-fast fiber connections, and quiet zones built for deep work and creative collaboration.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <svg viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3 class="pillar-title">Warm Café Ambience</h3>
+            <p class="pillar-desc">
+              Handcrafted wooden tables, soft ambient golden lighting, relaxing acoustic playlists, and freshly baked pastries served throughout the day.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         8. COFFEE PHOTOGRAPHY / VISUAL ELEMENTS
+         - Cappuccino with latte art
+         - Espresso in ceramic cups
+         - Iced coffee
+         - Coffee beans
+         - Coffee being poured
+         - Croissants and brownies with coffee
+         - Aesthetic coffee shop interiors & workstations
+    ============================================== -->
+    <section id="visuals" class="visuals-section beige-bg">
+      <div class="container">
+        
+        <div class="text-center">
+          <span class="section-meta">Visual Collection</span>
+          <h2 class="section-title">ATMOSPHERE &amp; CRAFTSMANSHIP</h2>
+          <p class="section-subtitle">
+            A visual glimpse into our warm coffee aroma, golden interior lighting, artisanal bakery treats, and ergonomic tech sanctuary.
+          </p>
+        </div>
+
+        <!-- Interactive Category Filter Tabs -->
+        <div class="gallery-filter-tabs">
+          <button class="filter-tab active" data-filter="all">All Visuals</button>
+          <button class="filter-tab" data-filter="coffee">Coffee &amp; Roasts</button>
+          <button class="filter-tab" data-filter="bakery">Pastries &amp; Treats</button>
+          <button class="filter-tab" data-filter="space">Spaces &amp; Lounge</button>
+        </div>
+
+        <!-- Photography Gallery Grid -->
+        <div class="gallery-grid">
+          
+          <!-- 1. Cappuccino with Latte Art -->
+          <article class="gallery-item" data-category="coffee">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Latte Art</span>
+              <img src="assets/images/latte-art.jpg" alt="Cappuccino with intricate rosetta latte art in a ceramic cup" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Velvet Cappuccino</h3>
+              <p class="gallery-caption">Velvety steamed microfoam poured with precision rosetta artistry over double espresso.</p>
+            </div>
+          </article>
+
+          <!-- 2. Espresso in Ceramic Cup -->
+          <article class="gallery-item" data-category="coffee">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Espresso</span>
+              <img src="assets/images/espresso-cup.jpg" alt="Rich espresso in a ceramic cup on rustic wood" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Single-Origin Espresso</h3>
+              <p class="gallery-caption">Full-bodied extraction highlighting chocolate and caramel notes with thick golden crema.</p>
+            </div>
+          </article>
+
+          <!-- 3. Coffee Being Poured -->
+          <article class="gallery-item" data-category="coffee">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Pour Over</span>
+              <img src="assets/images/coffee-pour.jpg" alt="Freshly brewed coffee being poured into a cup" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Artisan Pour-Over</h3>
+              <p class="gallery-caption">Gentle hand extraction releasing delicate floral and roasted fruit nuances.</p>
+            </div>
+          </article>
+
+          <!-- 4. Iced Coffee in Crystal Glass -->
+          <article class="gallery-item" data-category="coffee">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Cold Brew</span>
+              <img src="assets/images/iced-coffee.jpg" alt="Refreshing iced coffee with ice cubes in clear glassware" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Slow Drip Iced Coffee</h3>
+              <p class="gallery-caption">Steeped for 18 hours in cold filtered spring water for a silky, crisp refreshment.</p>
+            </div>
+          </article>
+
+          <!-- 5. Specialty Coffee Beans -->
+          <article class="gallery-item" data-category="coffee">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Roastery</span>
+              <img src="assets/images/coffee-beans.jpg" alt="Specialty roasted coffee beans spread across a wooden surface" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Hand-Selected Beans</h3>
+              <p class="gallery-caption">Medium and dark roasted beans sourced directly from sustainable family coffee farms.</p>
+            </div>
+          </article>
+
+          <!-- 6. Croissants & Pastries with Coffee -->
+          <article class="gallery-item" data-category="bakery">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Artisan Bakery</span>
+              <img src="assets/images/pastries-coffee.jpg" alt="Flaky golden croissants and bakery items served alongside coffee" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Golden Butter Croissant</h3>
+              <p class="gallery-caption">Freshly baked butter pastry with flaky layers, paired with our morning roast.</p>
+            </div>
+          </article>
+
+          <!-- 7. Chocolate Brownies & Coffee -->
+          <article class="gallery-item" data-category="bakery">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Patisserie</span>
+              <img src="assets/images/brownie-coffee.jpg" alt="Decadent rich dark chocolate brownies alongside freshly brewed coffee" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Fudge Cocoa Brownie</h3>
+              <p class="gallery-caption">Rich Belgian dark chocolate brownies baked fresh to accompany dark roast coffees.</p>
+            </div>
+          </article>
+
+          <!-- 8. Aesthetic Coffee Shop Interior -->
+          <article class="gallery-item" data-category="space">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Café Space</span>
+              <img src="assets/images/cafe-interior.jpg" alt="Aesthetic coffee shop interior with wooden tables and warm pendant lights" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Warm Sanctuary Interior</h3>
+              <p class="gallery-caption">Spacious wooden tables, cozy corners, and gentle amber lighting for peaceful work.</p>
+            </div>
+          </article>
+
+          <!-- 9. Modern Cyber Café Workstations -->
+          <article class="gallery-item" data-category="space">
+            <div class="gallery-img-wrapper">
+              <span class="gallery-overlay-badge">Cyber Tech</span>
+              <img src="assets/images/cyber-workstation.jpg" alt="Modern computer workstations with ergonomic chairs and clean tech setup" loading="lazy">
+            </div>
+            <div class="gallery-info">
+              <h3 class="gallery-title">Cyber Workstation Lounge</h3>
+              <p class="gallery-caption">Ergonomic seating, high-speed fiber internet, and dual monitor setup for creators and gamers.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. ABOUT US SECTION
+         STRICT REQUIREMENTS:
+         - Leave this section EMPTY
+         - Large section with plenty of whitespace
+         - Keep the cream background
+         - Do not add paragraphs
+         - Do not add descriptions
+         - Do not add dummy text
+         - Do not add random images or cards
+         - Leave the entire space available for user to add content later
+    ========================================================================== -->
+    <section id="about" class="empty-section cream-bg" aria-label="About Us">
+      <div class="container">
+        <div class="empty-section-canvas">
+          <!-- ==============================================
+               ABOUT US: USER CONTENT SPACE
+               (Reserved empty space - ready for user content)
+          ============================================== -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. VENUE SECTION
+         STRICT REQUIREMENTS:
+         - Keep this section completely EMPTY
+         - Large blank area
+         - Cream-coloured background
+         - Proper section spacing
+         - No text
+         - No descriptions
+         - No dummy content
+         - No images
+         - No cards
+         - User will add venue details and pictures later
+    ========================================================================== -->
+    <section id="venue" class="empty-section cream-bg" aria-label="Venue">
+      <div class="container">
+        <div class="empty-section-canvas">
+          <!-- ==============================================
+               VENUE: USER CONTENT SPACE
+               (Reserved empty space - ready for user venue details and pictures)
+          ============================================== -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. FACILITIES SECTION
+         STRICT REQUIREMENTS:
+         - Keep this section completely EMPTY as well
+         - Leave a large amount of blank space
+         - Maintain the same cream and coffee colour theme
+         - Do not add icons
+         - Do not add service cards
+         - Do not add descriptions
+         - Do not add sample content
+         - User will fill this section later
+    ========================================================================== -->
+    <section id="facilities" class="empty-section cream-bg" aria-label="Facilities">
+      <div class="container">
+        <div class="empty-section-canvas">
+          <!-- ==============================================
+               FACILITIES: USER CONTENT SPACE
+               (Reserved empty space - ready for user facilities details)
+          ============================================== -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. CONTACT SECTION
+         STRICT REQUIREMENTS:
+         - Beautifully designed contact section
+         - IMPORTANT: Leave LARGE EMPTY SPACES for contact information
+         - Leave separate blank areas for:
+           1. Email address
+           2. Phone number
+           3. Café address
+           4. Social media links
+         - Do not invent any contact information
+         - Do not insert fake email addresses or phone numbers
+         - Keep layout ready for editing later
+    ========================================================================== -->
+    <section id="contact" class="contact-section beige-bg">
+      <div class="container">
+        
+        <div class="text-center">
+          <span class="section-meta">Get In Touch</span>
+          <h2 class="section-title">CONNECT WITH CYBER + CAFÉ</h2>
+          <p class="section-subtitle">
+            Reach out to our team, inquire about workstation bookings, or visit us in person.
+          </p>
+        </div>
+
+        <!-- 4 Separate Designated Contact Slots with Large Empty Spaces -->
+        <div class="contact-grid">
+          
+          <!-- 1. Email Address Area -->
+          <div class="contact-card">
+            <div class="contact-card-top">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <h3 class="contact-card-heading">Email Address</h3>
+            </div>
+            <!-- Large Empty Space for Client Email Address -->
+            <div class="contact-empty-slot">
+              <!-- Add your email address here -->
+            </div>
+          </div>
+
+          <!-- 2. Phone Number Area -->
+          <div class="contact-card">
+            <div class="contact-card-top">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <h3 class="contact-card-heading">Phone Number</h3>
+            </div>
+            <!-- Large Empty Space for Client Phone Number -->
+            <div class="contact-empty-slot">
+              <!-- Add your phone number here -->
+            </div>
+          </div>
+
+          <!-- 3. Café Address Area -->
+          <div class="contact-card">
+            <div class="contact-card-top">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <h3 class="contact-card-heading">Café Address</h3>
+            </div>
+            <!-- Large Empty Space for Client Café Address -->
+            <div class="contact-empty-slot">
+              <!-- Add your café address here -->
+            </div>
+          </div>
+
+          <!-- 4. Social Media Links Area -->
+          <div class="contact-card">
+            <div class="contact-card-top">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+              </div>
+              <h3 class="contact-card-heading">Social Media Links</h3>
+            </div>
+            <!-- Large Empty Space for Client Social Media Links -->
+            <div class="contact-empty-slot">
+              <!-- Add your social media links here -->
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Optional Direct Inquiry Form -->
+        <div class="contact-inquiry-box">
+          <div class="inquiry-header">
+            <h3>Send Us a Message</h3>
+            <p>Have a question about group reservations, workstations, or private café events? Leave us a note below.</p>
+          </div>
+
+          <form id="inquiryForm" class="inquiry-form">
+            <div class="inquiry-form-grid">
+              <div class="form-field">
+                <label for="senderName">Your Name</label>
+                <input type="text" id="senderName" name="name" placeholder="Enter your full name" required>
+              </div>
+
+              <div class="form-field">
+                <label for="senderEmail">Your Email</label>
+                <input type="email" id="senderEmail" name="email" placeholder="Enter your email address" required>
+              </div>
+
+              <div class="form-field form-group-full">
+                <label for="senderSubject">Subject</label>
+                <input type="text" id="senderSubject" name="subject" placeholder="Workstation booking / Event inquiry / General query" required>
+              </div>
+
+              <div class="form-field form-group-full">
+                <label for="senderMessage">Message</label>
+                <textarea id="senderMessage" name="message" placeholder="How can we assist you today?" required></textarea>
+              </div>
+
+              <div class="form-group-full">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Feedback Notice -->
+            <div id="formSuccessNotice" style="display:none; margin-top: 1.5rem; padding: 1rem 1.4rem; background-color: var(--bg-main); border: 1px solid var(--accent-caramel); border-radius: var(--radius-sm); color: var(--text-main); font-weight: 500;">
+              ✓ Thank you! Your message has been received. We will respond promptly.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+       10. FOOTER
+       - Dark coffee-brown footer (#392719)
+       - CYBER + CAFÉ branding in cream
+       - Navigation links
+       - Empty space for social media links
+       - Empty space for contact details
+       - Copyright section
+       - Cream-coloured text
+  ============================================== -->
+  <footer class="site-footer">
+    <div class="footer-top-accent"></div>
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Column 1: Brand & Identity -->
+        <div class="footer-col">
+          <div class="footer-brand-title">
+            CYBER <span class="plus">+</span> CAFÉ
+          </div>
+          <p class="footer-brand-desc">
+            A sanctuary combining artisanal coffee roastery traditions with modern digital workspaces and high-speed cyber stations.
+          </p>
+        </div>
+
+        <!-- Column 2: Navigation Links -->
+        <div class="footer-col">
+          <h4 class="footer-column-heading">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#venue">Venue</a></li>
+            <li><a href="#facilities">Facilities</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Empty Space for Social Media Links -->
+        <div class="footer-col">
+          <h4 class="footer-column-heading">Social Media</h4>
+          <div class="footer-empty-social-box">
+            <!-- Add your social media links here -->
+          </div>
+        </div>
+
+        <!-- Column 4: Empty Space for Contact Details -->
+        <div class="footer-col">
+          <h4 class="footer-column-heading">Contact Details</h4>
+          <div class="footer-empty-contact-box">
+            <!-- Add your contact details here -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright Bottom Bar -->
+      <div class="footer-bottom-row">
+        <div>
+          &copy; 2024 <span class="brand-highlight">CYBER + CAFÉ</span>. All rights reserved.
+        </div>
+        <div>
+          Crafted with warm coffee &amp; modern technology.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Full Resolution Photography -->
+  <div class="image-modal" id="imageModal" role="dialog" aria-modal="true" aria-label="Coffee Photography Lightbox">
+    <div class="modal-content-wrapper">
+      <button class="modal-close-btn" id="modalClose" aria-label="Close image modal">&times;</button>
+      <div class="modal-img-container">
+        <img src="" alt="" id="modalImage">
+      </div>
+      <div class="modal-caption-area">
+        <h4 class="modal-caption-title" id="modalTitle"></h4>
+        <p class="modal-caption-desc" id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
